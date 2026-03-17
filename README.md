@@ -4,7 +4,7 @@ Welcome, brave Python adventurer! This is a comprehensive collection of **Python
 
 ## 📚 What's Inside?
 
-This repository contains **10 complete modules (00-09)**, each with **6 progressive exercises (ex0-ex5)** that build your Python skills from the ground up!
+This repository contains **10 complete modules (00-09)** that build your Python skills from the ground up!
 
 ### Module Overview
 
