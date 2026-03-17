@@ -126,11 +126,11 @@ Each exercise builds on previous concepts, creating a solid Python foundation.
 ```
 Python-Modules-42Barcelona/
 ├── Python Module 00/
-│   ├── ex0/ → ex5/     (6 exercises)
+│   ├── ex0/ → ex7/     (8 exercises)
 ├── Python Module 01/
-│   ├── ex0/ → ex5/     (6 exercises)
+│   ├── ex0/ → ex6/     (7 exercises)
 ├── Python Module 02/
-│   ├── ex0/ → ex5/     (Exception handling mastery)
+│   ├── ex0/ → ex5/     (6 exercices)
 ├── Python Module 03/
 │   ├── ex0/           → ft_command_quest.py
 │   ├── ex1/           → ft_score_analytics.py
@@ -139,7 +139,7 @@ Python-Modules-42Barcelona/
 │   ├── ex4/           → ft_inventory_system.py
 │   ├── ex5/           → ft_data_stream.py
 ├── Python Module 04-09/
-│   └── (More exciting content coming soon!)
+│   └── (🛠️In progres🛠️)
 ```
 
 ## 🛠️ Running Exercises
