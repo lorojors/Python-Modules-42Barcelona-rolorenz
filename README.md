@@ -4,7 +4,7 @@ Welcome, brave Python adventurer! This is a comprehensive collection of **Python
 
 ## 📚 What's Inside?
 
-This repository contains **10 complete modules (00-09)** that build your Python skills from the ground up!
+This repository contains **10 complete modules (00-09)**, each with **6 progressive exercises (ex0-ex5)** that build your Python skills from the ground up!
 
 ### Module Overview
 
@@ -14,51 +14,10 @@ This repository contains **10 complete modules (00-09)** that build your Python 
 | **Module 01** | Data Types & Functions | Garden data, growth tracking, factories, security |
 | **Module 02** | Exception Handling | Try-except, custom errors, error hierarchy, cleanup |
 | **Module 03** | Collections & Streams | Command-line args, scores, coordinates, achievements, inventory, generators |
-| **Module 04-09** | *Coming Soon!* | Advanced topics & specializations |
+| **Module 04** | File I/O & Streams | File creation, reading, context managers, stream handling, crisis response |
+| **Module 05-09** | *Coming Soon!* | Advanced topics & specializations |
 
-## 🎯 Module 03 Highlights (Currently Available)
-
-### ex0: Command Quest 🗣️
-Learn how to receive and process command-line arguments!
-```bash
-python3 ft_command_quest.py hello world
-# Output: Displays all arguments received with statistics
-```
-
-### ex1: Score Analytics 📊
-Process player scores and calculate statistics!
-```bash
-python3 ft_score_analytics.py 1500 2300 1800 2100 1950
-# Output: Shows highest, lowest, average, and total scores
-```
-
-### ex2: Coordinate System 📍
-Work with 3D coordinates and calculate distances!
-```bash
-python3 ft_coordinate_system.py "10,20,5" "3,4,0"
-# Output: Calculates Euclidean distance between 3D points
-```
-
-### ex3: Achievement Tracker 🏆
-Manage and analyze achievements using sets!
-```bash
-python3 ft_achievement_tracker.py
-# Output: Shows player achievements, common achievements, and rare finds
-```
-
-### ex4: Inventory System 🎮
-Build a complete inventory management system with dictionaries!
-```bash
-python3 ft_inventory_system.py sword:1 potion:5 shield:2
-# Output: Complete inventory analysis with statistics and categories
-```
-
-### ex5: Data Stream 🌊
-Master generators for memory-efficient data processing!
-```bash
-python3 ft_data_stream.py
-# Output: Processes 1000 game events efficiently using generators
-```
+---
 
 ## 🚀 Getting Started
 
@@ -77,17 +36,17 @@ python3 ft_data_stream.py
 
 2. **Navigate to a module:**
    ```bash
-   cd "Python Module 03"
+   cd "Python Module 04"
    ```
 
 3. **Run an exercise:**
    ```bash
-   python3 ex0/ft_command_quest.py arg1 arg2
+   python3 ex0/ft_archive_creation.py
    ```
 
 ## 📖 Learning Path
 
-Start with **Module 00** for basics, then progress through **Module 01** and **Module 02** to master exception handling. By **Module 03**, you'll work with collections, command-line arguments, and generators!
+Start with **Module 00** for basics, then progress through **Module 01** and **Module 02** to master exception handling. By **Module 03**, you'll work with collections and command-line arguments. **Module 04** takes it further with file I/O and stream management!
 
 Each exercise builds on previous concepts, creating a solid Python foundation.
 
@@ -113,6 +72,14 @@ Each exercise builds on previous concepts, creating a solid Python foundation.
 ✅ Generators and memory efficiency
 ✅ Data streaming and analytics
 
+### Module 04
+✅ Writing files with `open()` in write mode (`'w'`)
+✅ Reading files with `open()` in read mode (`'r'`)
+✅ Context managers (`with` statement) for safe file handling
+✅ Exception chaining — catching and re-raising with custom messages
+✅ `sys.stdout` vs `sys.stderr` — controlling output streams directly
+✅ `FileNotFoundError` and `PermissionError` handling
+
 ## 💡 Pro Tips
 
 - 📖 **Read the docstrings** - Every function has helpful documentation
@@ -126,11 +93,29 @@ Each exercise builds on previous concepts, creating a solid Python foundation.
 ```
 Python-Modules-42Barcelona/
 ├── Python Module 00/
-│   ├── ex0/ → ex7/     (8 exercises)
+│   ├── ex0/           → ft_hello_garden.py
+│   ├── ex1/           → ft_plot_area.py
+│   ├── ex2/           → ft_harvest_total.py
+│   ├── ex3/           → ft_plant_age.py
+│   ├── ex4/           → ft_water_reminder.py
+│   ├── ex5/           → ft_count_harvest_iterative.py / ft_count_harvest_recursive.py
+│   ├── ex6/           → ft_garden_summary.py
+│   ├── ex7/           → ft_seed_inventory.py
 ├── Python Module 01/
-│   ├── ex0/ → ex6/     (7 exercises)
+│   ├── ex0/           → ft_garden_intro.py
+│   ├── ex1/           → ft_garden_data.py
+│   ├── ex2/           → ft_plant_growth.py
+│   ├── ex3/           → ft_plant_factory.py
+│   ├── ex4/           → ft_garden_security.py
+│   ├── ex5/           → ft_plant_types.py
+│   ├── ex6/           → ft_garden_analytics.py
 ├── Python Module 02/
-│   ├── ex0/ → ex5/     (6 exercices)
+│   ├── ex0/           → ft_first_exception.py
+│   ├── ex1/           → ft_different_errors.py
+│   ├── ex2/           → ft_custom_errors.py
+│   ├── ex3/           → ft_finally_block.py
+│   ├── ex4/           → ft_raise_errors.py
+│   ├── ex5/           → ft_garden_management.py
 ├── Python Module 03/
 │   ├── ex0/           → ft_command_quest.py
 │   ├── ex1/           → ft_score_analytics.py
@@ -138,8 +123,14 @@ Python-Modules-42Barcelona/
 │   ├── ex3/           → ft_achievement_tracker.py
 │   ├── ex4/           → ft_inventory_system.py
 │   ├── ex5/           → ft_data_stream.py
-├── Python Module 04-09/
-│   └── (🛠️In progres🛠️)
+├── Python Module 04/
+│   ├── ex0/           → ft_ancient_text.py
+│   ├── ex1/           → ft_archive_creation.py
+│   ├── ex2/           → ft_stream_management.py
+│   ├── ex3/           → ft_vault_security.py
+│   ├── ex4/           → ft_crisis_response.py
+├── Python Module 05-09/
+│   └── (More exciting content coming soon! 🛠️)
 ```
 
 ## 🛠️ Running Exercises
@@ -194,7 +185,7 @@ This project is part of the 42 Barcelona cursus education program.
 
 ## 🌟 Quick Stats
 
-- 📦 **10+ Python Modules**
+- 📦 **10 Python Modules**
 - 📝 **60+ Exercises**
 - 🎓 **Beginner to Intermediate Level**
 - ⏱️ **Estimated Learning Time: 40-60+ hours**
