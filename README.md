@@ -111,11 +111,10 @@ Python-Modules-42Barcelona/
 │   ├── ex6/           → ft_garden_analytics.py
 ├── Python Module 02/
 │   ├── ex0/           → ft_first_exception.py
-│   ├── ex1/           → ft_different_errors.py
-│   ├── ex2/           → ft_custom_errors.py
-│   ├── ex3/           → ft_finally_block.py
-│   ├── ex4/           → ft_raise_errors.py
-│   ├── ex5/           → ft_garden_management.py
+│   ├── ex1/           → ft_raise_exception.py
+│   ├── ex2/           → ft_different_errors.py
+│   ├── ex3/           → ft_custom_errors.py
+│   ├── ex4/           → ft_finally_block.py
 ├── Python Module 03/
 │   ├── ex0/           → ft_command_quest.py
 │   ├── ex1/           → ft_score_analytics.py
