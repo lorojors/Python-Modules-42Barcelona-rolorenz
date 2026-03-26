@@ -4,7 +4,7 @@ Welcome, brave Python adventurer! This is a comprehensive collection of **Python
 
 ## 📚 What's Inside?
 
-This repository contains **10 complete modules (00-09)**, each with **6 progressive exercises (ex0-ex5)** that build your Python skills from the ground up!
+This repository contains **6 complete modules (00-05)**, each with progressive exercises that build your Python skills from the ground up!
 
 ### Module Overview
 
@@ -15,14 +15,14 @@ This repository contains **10 complete modules (00-09)**, each with **6 progress
 | **Module 02** | Exception Handling | Try-except, custom errors, error hierarchy, cleanup |
 | **Module 03** | Collections & Streams | Command-line args, scores, coordinates, achievements, inventory, generators |
 | **Module 04** | File I/O & Streams | File creation, reading, context managers, stream handling, crisis response |
-| **Module 05-09** | *Coming Soon!* | Advanced topics & specializations |
+| **Module 05** | OOP & Polymorphism | ABC, abstract methods, type hints, stream processors, pipeline architecture |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Python 3.7+** installed on your system
+- **Python 3.10+** installed on your system
 - Basic command-line knowledge
 - Ready to learn! 🎓
 
@@ -46,7 +46,7 @@ This repository contains **10 complete modules (00-09)**, each with **6 progress
 
 ## 📖 Learning Path
 
-Start with **Module 00** for basics, then progress through **Module 01** and **Module 02** to master exception handling. By **Module 03**, you'll work with collections and command-line arguments. **Module 04** takes it further with file I/O and stream management!
+Start with **Module 00** for basics, then progress through **Module 01** and **Module 02** to master exception handling. By **Module 03**, you'll work with collections and command-line arguments. **Module 04** takes it further with file I/O and stream management. **Module 05** rounds out the journey with object-oriented design, abstract classes, type annotations, and enterprise-grade pipeline architecture.
 
 Each exercise builds on previous concepts, creating a solid Python foundation.
 
@@ -79,6 +79,16 @@ Each exercise builds on previous concepts, creating a solid Python foundation.
 ✅ Exception chaining — catching and re-raising with custom messages
 ✅ `sys.stdout` vs `sys.stderr` — controlling output streams directly
 ✅ `FileNotFoundError` and `PermissionError` handling
+
+### Module 05
+✅ Abstract Base Classes (`ABC`) and `@abstractmethod` decorators
+✅ Polymorphism and method overriding
+✅ Type annotations with the `typing` module (`Any`, `List`, `Dict`, `Union`, `Optional`, `Protocol`)
+✅ `Protocol` for structural (duck-typing) interfaces
+✅ Specialised data processors (`NumericProcessor`, `TextProcessor`, `LogProcessor`)
+✅ Multi-stream handlers (`SensorStream`, `TransactionStream`, `EventStream`)
+✅ Enterprise pipeline architecture with chaining, error recovery and performance monitoring
+✅ `collections` module — `OrderedDict`, `deque`, `defaultdict`
 
 ## 💡 Pro Tips
 
@@ -128,8 +138,10 @@ Python-Modules-42Barcelona/
 │   ├── ex2/           → ft_stream_management.py
 │   ├── ex3/           → ft_vault_security.py
 │   ├── ex4/           → ft_crisis_response.py
-├── Python Module 05-09/
-│   └── (More exciting content coming soon! 🛠️)
+├── Python Module 05/
+│   ├── ex0/           → stream_processor.py
+│   ├── ex1/           → data_stream.py
+│   ├── ex2/           → nexus_pipeline.py
 ```
 
 ## 🛠️ Running Exercises
@@ -184,8 +196,8 @@ This project is part of the 42 Barcelona cursus education program.
 
 ## 🌟 Quick Stats
 
-- 📦 **10 Python Modules**
-- 📝 **60+ Exercises**
+- 📦 **6 Python Modules**
+- 📝 **36 Exercises**
 - 🎓 **Beginner to Intermediate Level**
 - ⏱️ **Estimated Learning Time: 40-60+ hours**
 - 🏆 **100% Educational Value**
