@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "matrix-construct"
+version = "0.1.0"
+description = "Matrix data analysis construct — a dependency management demonstration"
+authors = ["Resistance Fighter <operator@zion.net>"]
+readme = "README.md"
+packages = [{ include = "loading.py" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+matplotlib = "^3.7.0"
+requests = { version = "^2.28.0", optional = true }
+
+[tool.poetry.extras]
+network = ["requests"]
+
+[tool.poetry.scripts]
+matrix = "loading:main"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# ---------------------------------------------------------------------------
+# pip vs Poetry — key differences demonstrated by this project
+# ---------------------------------------------------------------------------
+# requirements.txt (pip):
+#   - Flat list of version constraints; no lock file unless pip-tools is added
+#   - Developer runs: pip install -r requirements.txt
+#   - Reproducibility requires a separate requirements-lock.txt
+#   - No built-in concept of optional extras or dependency groups
+#
+# pyproject.toml (Poetry):
+#   - Single source of truth for project metadata + dependencies
+#   - poetry.lock is auto-generated and guarantees byte-for-byte reproducibility
+#   - Supports optional extras (e.g. [network]) and dev groups
+#   - Developer runs: poetry install  (or poetry run python loading.py)
+# ---------------------------------------------------------------------------
